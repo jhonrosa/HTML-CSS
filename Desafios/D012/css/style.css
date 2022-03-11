@@ -8,7 +8,9 @@ font-family: 'Sriracha', cursive;*/
     margin: 0px;
     padding: 0px;
 }
-
+body {
+    background-color: gray;
+}
 header {
     background-color: black;
     text-align: center;
@@ -19,7 +21,6 @@ header h1 {
     font-family: 'Passion One';
     font-weight: normal;
     padding-top: 20px;
-    margin-bottom: -20px;
 }
 
 header p {
@@ -38,9 +39,41 @@ a:hover {
     text-decoration: underline;
     background-color: rgba(195, 195, 195, 0.527);
 }
-p {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 1.2em;
     font-family: 'Sriracha';
-    margin: 20px;
-    line-height: 1.8em;
+    padding-left: 30px;
+    line-height: 2em;
     font-weight: bolder;
+}
+
+.normal {
+    background-color: white;
+}
+
+.imagem {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    font-weight: normal;
+}
+section.imagem > p {
+    background-color: black;
+    width: 400px;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Sriracha';
+    text-align: center;
+}
+footer a { 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
